@@ -1,0 +1,1990 @@
+{
+	"language_code": "en",
+	"global": {
+		"submit": "Submit",
+		"create": "Create",
+		"delete": "Delete",
+		"edit": "Edit",
+		"view": "View",
+		"cancel": "Cancel",
+		"update": "Update",
+		"enable": "Enable",
+		"disable": "Disable",
+		"hidden": "Hidden",
+		"login": "Login",
+		"language": "Language",
+		"choose_language": "Choose Language",
+		"theme_style": "Theme",
+		"theme_style_light": "Light",
+		"theme_style_dark": "Dark",
+		"close": "Close",
+		"search": "Search",
+		"go_back_button": "Go Back",
+		"no_data": "No data available..",
+		"date_selector": "Date selector",
+		"yes": "Yes",
+		"no": "No",
+		"active": "Active",
+		"disabled": "Disabled",
+		"date_range_selector": "Select date",
+		"export_csv": "Export to CSV",
+		"export_json": "Export to JSON",
+		"captcha_placeholder": "Captcha text",
+		"loading": "Loading..",
+		"view_more": "View more",
+		"view_x_more": "View %s more..",
+		"message_type": {
+			"error": "Error!",
+			"info": "Info!",
+			"success": "Success!"
+		},
+		"info_message": {
+			"confirm_delete": "Are you sure you want to delete this?",
+			"user_package_is_expired": "Your current package has expired and your access is limited. Please get a new package!"
+		},
+		"success_message": {
+			"basic": "Your requested command was performed successfully!",
+			"user_activated": "Your account is now active!"
+		},
+		"error_message": {
+			"directory_not_writable": "Directory is not writable <strong>%s</strong>",
+			"empty_fields": "You must fill all the fields!",
+			"invalid_captcha": "The captcha code is not valid!",
+			"invalid_file_type": "Invalid file type!",
+			"invalid_csrf_token": "The action could not be finished because the protector has expired, please try again!",
+			"basic": "We could not perform your requested command!"
+		},
+		"menu": {
+			"home": "Home",
+			"logout": "Logout",
+			"settings": "Settings",
+			"admin": "Admin",
+			"agency": "Agency",
+			"website": "Visit website",
+			"admin_others": "Others"
+		},
+		"accessibility": {
+			"toggle_navigation": "Toggle navigation",
+			"logo_alt": "Website Logo",
+			"captcha_alt": "Captcha",
+			"captcha_input": "Captcha Field"
+		},
+		"date": {
+			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
+			"datetime_readable_format": "%1$s %2$s, %3$s",
+			"datetime_ymd_format": "%1$s-%2$s-%3$s",
+			"datetime_his_format": "%1$s:%2$s:%3$s",
+			"datetime_ymd_his_format": "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
+			"now": "now",
+			"today": "today",
+			"clear": "clear",
+			"second": "second",
+			"seconds": "seconds",
+			"minute": "minute",
+			"minutes": "minutes",
+			"hour": "hour",
+			"hours": "hours",
+			"day": "day",
+			"days": "days",
+			"month": "month",
+			"months": "months",
+			"year": "year",
+			"years": "years",
+			"time_ago": "%1$s %2$s ago",
+			"time_until": "%1$s %2$s until",
+			"long_days": {
+				"1": "Monday",
+				"2": "Tuesday",
+				"3": "Wednesday",
+				"4": "Thursday",
+				"5": "Friday",
+				"6": "Saturday",
+				"7": "Sunday"
+			},
+			"short_days": {
+				"1": "Mon",
+				"2": "Tue",
+				"3": "Wed",
+				"4": "Thu",
+				"5": "Fri",
+				"6": "Sat",
+				"7": "Sun"
+			},
+			"long_months": {
+				"1": "January",
+				"2": "February",
+				"3": "March",
+				"4": "April",
+				"5": "May",
+				"6": "June",
+				"7": "July",
+				"8": "August",
+				"9": "September",
+				"10": "October",
+				"11": "November",
+				"12": "December"
+			},
+			"short_months": {
+				"1": "Jan",
+				"2": "Feb",
+				"3": "Mar",
+				"4": "Apr",
+				"5": "May",
+				"6": "Jun",
+				"7": "Jul",
+				"8": "Aug",
+				"9": "Sep",
+				"10": "Oct",
+				"11": "Nov",
+				"12": "Dec"
+			}
+		},
+		"number": {
+			"decimal_point": ".",
+			"thousands_separator": ","
+		},
+		"emails": {
+			"user_activation": {
+				"subject": "Welcome {{NAME}}! - Activation email",
+				"body": "Hey there {{NAME}},<br /><br />We are glad you joined us! <br /><br />One more step and you are ready,<br /><br />you just need to click the following link in order to join {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activate your account</a><br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+			"user_lost_password": {
+				"subject": "Reset your password - {{WEBSITE_TITLE}}",
+				"body": "Hey {{NAME}},<br /><br />This is your reset password link: <a href=\"{{LOST_PASSWORD_LINK}}\">Reset Password</a><br /><br />If you did not request this, you can ignore it!<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+			"user_payment": {
+				"subject": "Payment received - {{WEBSITE_TITLE}}",
+				"body": "Hey there,<br /><br />This is a confirmation that your payment has been received by us.<br /><br />Your account plan is now paid until {{PACKAGE_EXPIRATION_DATE}}!<br /><br />You can also check all the <a href=\"{{USER_PAYMENTS_LINK}}\">payments</a> you made, <a href=\"{{USER_PACKAGE_LINK}}\">change your plan</a> or <a href=\"{{USER_PACKAGE_LINK}}\">cancel it</a>.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+			"user_data_send": {
+				"subject": "New data collected for %s campaign - %s notification",
+				"body": "Here is everything we have collected from the <strong>%s</strong> Campaign - <strong>%s</strong> Notification.<br /><br />%s"
+			},
+			"admin_new_user_notification": {
+				"subject": "New User Registered!",
+				"body": "Hey!<br /><br />A new user just registered to the website!<br /><br />Welcome <strong>%s</strong> with the <strong>%s</strong> email to your website!"
+			},
+			"admin_new_payment_notification": {
+				"subject": "New Payment via %s of %s %s!",
+				"body": "Hey!<br /><br />A user just paid <strong>%s %s</strong> to the website!<br /><br />Here's to more earnings!"
+			}
+		},
+		"package_settings": {
+			"no_ads": "No Ads",
+			"removable_branding": "Removable Branding",
+			"custom_branding": "Custom Branding",
+			"unlimited_campaigns_limit": "Unlimited Campaigns",
+			"campaigns_limit": "<strong>%s</strong> Campaigns",
+			"unlimited_notifications_limit": "Unlimited Notifications",
+			"notifications_limit": "<strong>%s</strong> Notifications",
+			"unlimited_notifications_impressions_limit": "Unlimited Notifications Impressions",
+			"notifications_impressions_limit": "<strong>%s</strong> Notifications Impressions / month",
+			"enabled_notifications_all": "All Notifications Enabled",
+			"enabled_notifications_x": "%s Enabled Notifications"
+		}
+	},
+	"page": {
+		"breadcrumb": "Page",
+		"print": "Print",
+		"estimated_reading_time": "%s read",
+		"last_date": "Last updated on: %s"
+	},
+	"pages": {
+		"title": "Pages",
+		"header": "Resources center",
+		"subheader": "Here you can find useful page resources depending on your needs.",
+		"total_views": "(%s views)",
+		"index": {
+			"breadcrumb": "Pages",
+			"popular_pages": {
+				"header": "Popular pages"
+			},
+			"pages_categories": {
+				"header": "Categories",
+				"total_pages": "%s available pages"
+			}
+		},
+		"pages_category": {
+			"breadcrumb": "Pages Category"
+		}
+	},
+	"package": {
+		"title": "Package",
+		"header_new": "Choose Your Package",
+		"subheader_new": "Select one package to continue your subscription 🔥.",
+		"header_renew": "Renew Your Package",
+		"subheader_renew": "Select one package to renew your subscription 🔥.",
+		"header_upgrade": "Upgrade Your Package",
+		"subheader_upgrade": "Select one package to upgrade your subscription 🔥.",
+		"display": {
+			"per_month": "/ month",
+			"annual_price": "Annual Price: %s %s"
+		},
+		"free": {
+			"price": "Free"
+		},
+		"trial": {
+			"price": "Trial"
+		},
+		"button": {
+			"choose": "Choose Plan",
+			"disabled": "Disabled",
+			"already_free": "Your package"
+		}
+	},
+	"pay": {
+		"title": "Pay",
+		"header": "You chose the <span class=\"underline\">%s</span> package",
+		"subheader": "You are almost ready.",
+		"accept": "I confirm that I have read and understood the %s and %s of the site.",
+		"free": {
+			"free_already": "Your package is already this one, make sure to choose another one!",
+			"other_package_not_expired": "Your current package is not expired yet, you will get the free package after it expires!",
+			"choose_another_package": "Choose another Package"
+		},
+		"trial": {
+			"trial_done": "Your trial option was already used, you can't renew it anymore.",
+			"other_package_not_expired": "Your current package is not expired yet, if you start your trial it will override it!",
+			"choose_another_package": "Choose another Package",
+			"trial_start": "Start your Trial"
+		},
+		"custom_package": {
+			"payment_plan": "Choose your payment plan",
+			"monthly": "Monthly Payments",
+			"annual": "Annual Payments",
+			"annual_savings": "You save %s %s",
+			"code": "Discount Code (optional)",
+			"payment_processor": "Choose your favorite way to pay",
+			"paypal_processor": "PayPal",
+			"stripe_processor": "Stripe",
+			"no_processor": "No Payment Processors are available at the moment.",
+			"payment_type": "Select your preferred type of payment",
+			"one_time_type": "One Time Payment",
+			"recurring_type": "Recurring Payment",
+			"pay": "Generate Payment"
+		},
+		"success_message": {
+			"package_trial_start": "Your trial period just started 🔥!",
+			"package_custom_start": "Your payment went through and your new membership is activated!",
+			"package_custom_will_start": "Your payment was sent and your new membership will be activated!",
+			"code": "Applied discount code for %s."
+		},
+		"error_message": {
+			"code_invalid": "This discount code is invalid..",
+			"code_used": "You have already used this discount code..",
+			"canceled_payment": "It seems you've canceled the payment for some reason.",
+			"failed_payment": "Something didn't work quite right, please try again if this persists contact the site admin."
+		}
+	},
+	"account": {
+		"title": "Account",
+		"menu": "Account",
+		"package": {
+			"header": "%s Package",
+			"subheader": "ends on %s",
+			"upgrade_package": "Upgrade Package",
+			"renew_package": "Renew/Change Package",
+			"renew": "Renew/Upgrade",
+			"notifications_impressions_limit": "You have used %s impressions out of %s this month"
+		},
+		"settings": {
+			"header": "Settings",
+			"subheader": "Basic profile settings of your account.",
+			"email": "Email",
+			"name": "Name",
+			"timezone": "Timezone",
+			"timezone_help": "Your preferred way of displaying dates."
+		},
+		"change_password": {
+			"header": "Change Password",
+			"subheader": "If you do not want to change your password, do not fill any of those fields below.",
+			"current_password": "Current Password",
+			"new_password": "New Password",
+			"repeat_password": "Repeat Password"
+		},
+		"twofa": {
+			"header": "Two-factor authentication",
+			"subheader": "Use a mobile authentication app to get a verification code to enter every time you log in to your account.",
+			"is_enabled": "Enable Two-factor authentication",
+			"qr": "1. Scan QR Code",
+			"qr_help": "Open the authentication app (ex: Authy, Google Authenticatior) on your mobile device and scan the following QR Code with your camera.",
+			"secret": "Can't scan the QR Code?",
+			"secret_help": "Try inserting the following secret code into your app if you can't scan the QR Code.",
+			"verify": "2. Enter freshly generated token",
+			"verify_help": "To confirm that you setup your code properly, please enter the 8-digit token from your mobile app."
+		},
+		"delete": {
+			"header": "Delete Account",
+			"subheader": "By deleting the account, all of your stored data will be deleted. <br /> This action is irreversible once done.",
+			"confirm_message": "Are you sure you want to delete your account?"
+		},
+		"error_message": {
+			"invalid_current_password": "Your current password is not valid!",
+			"short_password": "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Your entered passwords do not match",
+			"twofa_check": "The token that you entered is not valid, please try again to setup the Two-factor authentication system."
+		},
+		"success_message": {
+			"account_updated": "Your account was updated!",
+			"subscription_canceled": "Your recurring subscription was canceled!"
+		}
+	},
+	"account_package": {
+		"title": "Account Package",
+		"menu": "Package",
+		"header": "Account Package",
+		"package": {
+			"renews": "Package will renew on %s",
+			"expires": "Package ends on %s"
+		},
+		"cancel": {
+			"header": "Cancel Subscription",
+			"subheader": "By cancelling your subscription no further payments will be made. <br /> You will still have access to your features that you paid for until the expiration date.",
+			"cancel": "Cancel Subscription",
+			"confirm_message": "Are you sure you want to cancel the next billing of your subscription?"
+		},
+		"code": {
+			"header": "Redeem",
+			"subheader": "Redeeming a code will cancel your current package and automatically switch you to the new package associated with the code.",
+			"input": "Redemption code",
+			"submit": "Activate"
+		},
+		"success_message": {
+			"code_redeemed": "Code has been successfully redeemed!",
+			"code": "Redeemable code is available: %s for %s days."
+		},
+		"error_message": {
+			"code_invalid": "This redeemable code is invalid..",
+			"code_used": "You have already used this redeemable code.."
+		}
+	},
+	"account_payments": {
+		"title": "Account Payments",
+		"menu": "Payments",
+		"header": "Account Payments \uD83D\uDCB0",
+		"subheader": "All the payments made on your account.",
+		"payments": {
+			"processor": "Processor",
+			"type": "Type",
+			"email": "Email",
+			"date": "Date",
+			"name": "Full Name",
+			"amount": "Amount",
+			"package_id": "Package",
+			"nr": "#",
+			"invoice": "Invoice"
+		},
+		"info_message": {
+			"no_payments": "At the moment there are no payments to show.."
+		}
+	},
+	"account_logs": {
+		"title": "Account Logs",
+		"menu": "Logs",
+		"header": "Account Logs 📚",
+		"subheader": "Your last recorded activity",
+		"logs": {
+			"type": "Type",
+			"ip": "IP",
+			"date": "Date"
+		},
+		"info_message": {
+			"no_logs": "At the moment there are no logs to show.."
+		}
+	},
+	"invoice": {
+		"print": "Print",
+		"invoice": "INVOICE",
+		"invoice_nr": "Invoice Nr",
+		"invoice_date": "Date",
+		"vendor": {
+			"header": "Vendor",
+			"name": "Name",
+			"address": "Address",
+			"city": "City",
+			"county": "County",
+			"zip": "ZIP",
+			"country": "Country",
+			"email": "Email",
+			"phone": "Phone"
+		},
+		"customer": {
+			"header": "Customer",
+			"name": "Name",
+			"email": "Email"
+		},
+		"table": {
+			"item": "Item",
+			"amount": "Amount",
+			"item_value": "%s Package, %s",
+			"total": "Total",
+			"paid_via": "Paid via %s"
+		}
+	},
+	"reset_password": {
+		"title": "Reset Password",
+		"header": "Reset Password",
+		"return": "Return to Login",
+		"form": {
+			"new_password": "New Password",
+			"repeat_password": "Repeat Password"
+		},
+		"error_message": {
+			"short_password": "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Your entered passwords do not match"
+		},
+		"success_message": {
+			"password_updated": "Your password has been updated!"
+		}
+	},
+	"login": {
+		"menu": "Login",
+		"title": "Login",
+		"header": "Login",
+		"form": {
+			"email": "Email Address",
+			"email_placeholder": "email@domain.com",
+			"password": "Password",
+			"password_placeholder": "Password",
+			"twofa_token": "Two-factor token",
+			"twofa_token_placeholder": "Token code from the authenticator app",
+			"remember_me": "Remember me",
+			"login": "Login",
+			"or": "or"
+		},
+		"display": {
+			"total_track_notifications": "Displayed notifications worldwide and counting.",
+			"register": "Don't have an account? %s",
+			"register_help": "Register",
+			"lost_password": "Lost Password",
+			"resend_activation": "Resend Activation",
+			"facebook": "%s Facebook Login"
+		},
+		"info_message": {
+			"twofa_token": "Use your authenticator app to get the token for the Two-factor authentication.",
+			"logged_in": "Welcome back!"
+		},
+		"error_message": {
+			"twofa_token": "Your two-factor authentication token is invalid!",
+			"wrong_login_credentials": "Your login combination is invalid!",
+			"user_not_active": "Your account is not confirmed or banned!",
+			"email_is_null": "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process."
+		}
+	},
+	"lost_password": {
+		"title": "Lost Password",
+		"header": "Lost Password",
+		"return": "Return to Login",
+		"form": {
+			"email": "Email",
+			"email_placeholder": "email@domain.com"
+		},
+		"notice_message": {
+			"success": "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+	"resend_activation": {
+		"title": "Resend Activation",
+		"header": "Resend Activation Email",
+		"return": "Return to Login",
+		"form": {
+			"email": "Email",
+			"email_placeholder": "email@domain.com"
+		},
+		"notice_message": {
+			"success": "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+	"register": {
+		"title": "Register",
+		"menu": "Register",
+		"header": "Register",
+		"login": "Already have an account?",
+		"display": {
+			"total_notifications": "Total notifications created with our platform."
+		},
+		"form": {
+			"name": "Name",
+			"name_placeholder": "Your full name",
+			"email": "Email",
+			"email_placeholder": "email@domain.com",
+			"password": "Password",
+			"password_placeholder": "Password",
+			"repeat_password": "Repeat Password",
+			"accept": "I confirm that I have read and understood the %s and %s of the site.",
+			"terms_and_conditions": "Terms and Conditions",
+			"privacy_policy": "Privacy Policy",
+			"register": "Register"
+		},
+		"error_message": {
+			"username_length": "Username must be between 3 and 32 characters!",
+			"name_length": "Name must be between 3 and 32 characters!",
+			"email_exists": "We're sorry, but that email is already used!",
+			"invalid_email": "You entered an invalid email!",
+			"short_password": "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Your entered passwords do not match",
+			"username_characters": "You can only use letters, digits and the '.', '_' characters for your username field"
+		},
+		"success_message": {
+			"registration": "Your account has been created, check your email for the activation link! ( Make sure to check your spam folder too )",
+			"login": "Welcome to our platform, we are grateful to have you here!"
+		}
+	},
+	"`dashboard`": {
+		"title": "Dashboard",
+		"menu": "Dashboard",
+		"header": "Dashboard",
+		"campaigns": {
+			"header": "Campaigns",
+			"create": "Create Campaign",
+			"name": "Campaign",
+			"date": "Launched on",
+			"is_enabled": "Status",
+			"is_enabled_tooltip": "Change the status of the Campaign",
+			"no_campaigns": "There are no campaigns at the moment, why not create one? 🔥"
+		}
+	},
+	"campaign": {
+		"title": "%s Campaign",
+		"header": {
+			"header": "%s Campaign",
+			"subheader": "Domain: %s",
+			"campaigns": "Campaigns List",
+			"custom_branding": "Custom Branding"
+		},
+		"notifications": {
+			"header": "Campaign notifications",
+			"create": "Create Notification",
+			"name": "Notification",
+			"type": "Type",
+			"display_trigger": "Trigger",
+			"display_duration": "Duration",
+			"is_enabled": "Status",
+			"is_enabled_tooltip": "Change the status",
+			"display_duration_unlimited": "Forever",
+			"no_notifications": "There are no notifications for this campaign, why not create one? 🔥"
+		},
+		"error_message": {
+			"campaigns_limit": "You have exceeded the limit of campaigns on your package."
+		}
+	},
+	"notification": {
+		"title": "%s Notification",
+		"branding": "🔥 by iProove",
+		"notifications": {
+			"header": "Campaign Notifications",
+			"subheader": "All the campaign notifications and their status.",
+			"create": "Create Notification",
+			"name": "Name",
+			"type": "Type",
+			"date": "Launched on",
+			"is_enabled": "Status",
+			"is_enabled_tooltip": "Change the status",
+			"no_notifications": "There are no notifications for this campaign, why not create one? 🔥"
+		},
+		"preview": {
+			"header": "Preview",
+			"subheader": "Overall preview of how it would look like."
+		},
+		"settings": {
+			"header": "Settings",
+			"link": "Settings",
+			"tab_basic": "Basic",
+			"tab_triggers": "Triggers",
+			"tab_display": "Display",
+			"tab_customize": "Customize",
+			"tab_data": "Data",
+			"title": "Title Message",
+			"description": "Description Message",
+			"content_title": "Content Title",
+			"content_description": "Content Description",
+			"video": "YouTube Video Embed Url",
+			"video_help": "Ex: https://www.youtube.com/embed/3WxQgvuT6ZI",
+			"last_activity": "Count data from last X %s",
+			"conversion_title": "Conversion Title",
+			"conversion_title_help": "You can insert dynamic variables from your Conversion Data. Example: If you have a field named <code>full_name</code>, you can use it as <code>{full_name}</code>.",
+			"conversion_description": "Conversion Description",
+			"conversion_active_help": "You can insert dynamic variables from your Conversion Data as mentioned in the Conversion Title.",
+			"conversions_count": "How many conversions to show?",
+			"conversions_count_help": "",
+			"reviews_count": "How many reviews to show?",
+			"reviews_count_help": "",
+			"input_placeholder": "Input Placeholder",
+			"email_placeholder": "Email Placeholder",
+			"image": "Image URL",
+			"image_help": "Leave empty for no image. Hint: icons8.com has a good library of small icons that you can use.",
+			"url": "Notification URL",
+			"url_help": "The URL you want to user to go to after clicking the notification. Leave empty for no link.",
+			"url_link": "Link URL",
+			"url_link_text": "Link URL Text",
+			"coupon_code": "Coupon Code",
+			"button_url": "Button Url",
+			"button_text": "Button Text",
+			"button_text_help": "Leave empty to remove the button completely.",
+			"footer_text": "Footer Text",
+			"share_url": "Share URL",
+			"share_url_help": "Leave empty if you want the URL to be dynamic to the current page where the notification is shown.",
+			"share_facebook": "Facebook Share",
+			"share_twitter": "Twitter Share",
+			"share_linkedin": "Linkedin Share",
+			"show_angry": "Show Angry",
+			"show_sad": "Show Sad",
+			"show_neutral": "Show Neutral",
+			"show_happy": "Show Happy",
+			"show_excited": "Show Excited",
+			"end_date": "End Date",
+			"show_agreement": "Show Agreement",
+			"show_agreement_help": "Require the user to confirm his agreement by ticking a checkbox.",
+			"agreement_url": "Agreement URL",
+			"agreement_text": "Agreement Text",
+			"trigger_all_pages": "Trigger on all pages",
+			"trigger_all_pages_help": "Where should the notification show?",
+			"trigger_add": "Add new trigger",
+			"trigger_type_exact": "Exact Match",
+			"trigger_type_contains": "Contains",
+			"trigger_type_starts_with": "Starts With",
+			"trigger_type_ends_with": "Ends With",
+			"trigger_type_page_contains": "Page Contains",
+			"trigger_type_exact_placeholder": "Full URL ( ex: https://domain.com )",
+			"trigger_type_contains_placeholder": "Part of the url ( ex: /product/102481 )",
+			"trigger_type_starts_with_placeholder": "Part of the url",
+			"trigger_type_ends_with_placeholder": "Part of the url",
+			"trigger_type_page_contains_placeholder": "Text that is included in the website",
+			"display_trigger": "Display Trigger",
+			"display_trigger_help": "On what event the notification should show up.",
+			"display_trigger_delay": "Delay",
+			"display_trigger_delay_placeholder": "Number of seconds to wait until notification shows up",
+			"display_trigger_scroll": "Scroll Percentage",
+			"display_trigger_scroll_placeholder": "Percent of scrolling from the top down",
+			"display_trigger_exit_intent": "Exit Intent",
+			"display_frequency": "Display frequency",
+			"display_frequency_help": "How often should the notification trigger?.",
+			"display_frequency_all_time": "All the time",
+			"display_frequency_once_per_session": "Once per visit session",
+			"display_frequency_once_per_browser": "Once per browser",
+			"display_mobile": "Display on small screens",
+			"display_mobile_help": "Wether or not to display the notification on when pixels available are smaller than 768px.",
+			"display_desktop": "Display on large screens",
+			"display_desktop_help": "Wether or not to display the notification on when pixels available are bigger than 768px.",
+			"display_duration": "Display Duration",
+			"display_duration_help": "How many seconds to display the notification. Set -1 to display forever.",
+			"display_position": "Display Position",
+			"display_position_help": "Position of the notification on the screen. Position doesn't change on the preview.",
+			"display_position_top_left": "Top Left",
+			"display_position_top_center": "Top Center",
+			"display_position_top_right": "Top Right",
+			"display_position_middle_left": "Middle Left",
+			"display_position_middle_center": "Middle Center",
+			"display_position_middle_right": "Middle Right",
+			"display_position_bottom_left": "Bottom Left",
+			"display_position_bottom_center": "Bottom Center",
+			"display_position_bottom_right": "Bottom Right",
+			"display_position_top": "Top",
+			"display_position_bottom": "Bottom",
+			"display_position_top_floating": "Top Floating",
+			"display_position_bottom_floating": "Bottom Floating",
+			"display_minimum_activity": "Minimum activity",
+			"display_minimum_activity_help": "Minimum data needed to display the notification.",
+			"display_close_button": "Display Close Button",
+			"display_branding": "Display Branding",
+			"on_animation": "Entrance Animation",
+			"on_animation_fadeIn": "Fade In",
+			"on_animation_slideInUp": "Slide In Up",
+			"on_animation_slideInDown": "Slide In Down",
+			"on_animation_zoomIn": "Zoom In",
+			"on_animation_bounceIn": "Bounce In",
+			"off_animation": "Exit Animation",
+			"off_animation_fadeOut": "Fade Out",
+			"off_animation_slideOutUp": "Slide Out Up",
+			"off_animation_slideOutDown": "Slide Out Down",
+			"off_animation_zoomOut": "Zoom Out",
+			"off_animation_bounceOut": "Bounce Out",
+			"title_color": "Title color",
+			"description_color": "Description color",
+			"content_title_color": "Content Title color",
+			"content_description_color": "Content description color",
+			"background_color": "Background color",
+			"background_pattern": "Background pattern",
+			"background_pattern_none": "None",
+			"background_pattern_jupiter": "Jupiter",
+			"background_pattern_wavy": "Wavy",
+			"background_pattern_hexagons": "Hexagons",
+			"background_pattern_autumn": "Autumn",
+			"background_pattern_shapes": "Shapes",
+			"background_pattern_anchors": "Anchors",
+			"background_pattern_plus": "Plus",
+			"background_pattern_bubbles": "Bubbles",
+			"background_pattern_wiggle": "Wiggle",
+			"button_background_color": "Button background color",
+			"button_color": "Button color",
+			"number_color": "Number color",
+			"coupon_code_color": "Coupon code color",
+			"coupon_code_background_color": "Coupon code background color",
+			"coupon_code_border_color": "Coupon code border color",
+			"number_background_color": "Number background color",
+			"pulse_background_color": "Pulse background color",
+			"time_color": "Time color",
+			"time_background_color": "Time background color",
+			"border_width": "Border width",
+			"border_width_help": "Value from 0 to 5 for the border width of the notification.",
+			"border_color": "Border color",
+			"border_radius": "Border radius",
+			"border_radius_help": "Change the shape of the corners of the notification",
+			"border_radius_straight": "Straight",
+			"border_radius_rounded": "Rounded",
+			"border_radius_round": "Round",
+			"shadow": "Display shadow",
+			"shadow_help": "Enable or disable the shadow around the edges of the notification",
+			"engagement_links_categories": "Categories",
+			"engagement_links_categories_links": "Categories links",
+			"data_send_is_enabled": "Send caught data to external sources",
+			"data_send_webhook": "Webhook",
+			"data_send_webhook_help": "Leave empty to disable this field.",
+			"data_send_webhook_placeholder": "Webhook URL",
+			"data_send_email": "Email",
+			"data_send_email_help": "Leave empty to disable this field.",
+			"data_send_email_placeholder": "Valid email address",
+			"data_trigger_webhook": "Webhook Trigger",
+			"data_trigger_webhook_help": "Call the endpoint to let us know about an event or conversion that happened on your website related to this notification, we'll do the rest. The call MUST be a POST request and can have any form data parameters.",
+			"data_trigger_type_webhook": "Webhook",
+			"data_trigger_input_webhook": "Full Webhook Url",
+			"data_trigger_auto": "Auto Capture Data",
+			"data_trigger_auto_help": "Setting the Auto Capture option will try to automatically detect when a form has been submitted and record that data for you. ( Password fields will never be captured )",
+			"data_trigger_auto_add": "Add new rule"
+		},
+		"statistics": {
+			"disabled": "As of now, the analytics for notifications are not enabled.",
+			"header": "Statistics",
+			"link": "Statistics",
+			"impressions_chart": "Impressions",
+			"hovers_chart": "Mouse Hovers",
+			"clicks_chart": "Clicks",
+			"form_submissions_chart": "Form Submissions",
+			"feedback_chart": "Feedback Submissions",
+			"header_feedback": "Feedbacks",
+			"feedback": "Feedback",
+			"feedback_total": "Count",
+			"header_top_pages": "Top Pages",
+			"subheader_top_pages": "Most active pages on which notifications had most activity.",
+			"url": "",
+			"type": "",
+			"total_uniques": "Uniques",
+			"total_uniques_help": "Unique refers to 1 unique device in a 24 hour period.",
+			"total_sessions": "Sessions",
+			"total_sessions_help": "Multiple sessions can be tracked per one unique device in one day.",
+			"impression": "Impression",
+			"hover": "Hover",
+			"form_submission": "Form Submission",
+			"click": "Click",
+			"auto_capture": "Auto Capture",
+			"feedback_emoji_angry": "Emoji Angry",
+			"feedback_emoji_sad": "Emoji Sad",
+			"feedback_emoji_neutral": "Emoji Neutral",
+			"feedback_emoji_happy": "Emoji Happy",
+			"feedback_emoji_excited": "Emoji Excited",
+			"feedback_score_1": "Score 1",
+			"feedback_score_2": "Score 2",
+			"feedback_score_3": "Score 3",
+			"feedback_score_4": "Score 4",
+			"feedback_score_5": "Score 5"
+		},
+		"data": {
+			"header": "Data",
+			"link": "Data",
+			"create": "Import Data",
+			"expand_data": "Click to get conversion data",
+			"no_data": "No data",
+			"data": "Data",
+			"url": "URL",
+			"date": "Date",
+			"ip": "IP",
+			"country": "Country",
+			"city": "City",
+			"country_code": "Country code",
+			"variable": "Can also be used as a variable {%s}",
+			"type": "Type",
+			"type_auto_capture": "Auto Captured",
+			"type_webhook": "Webhook",
+			"type_imported": "Imported",
+			"type_email_collector": "Email Collected",
+			"type_collector": "Collected"
+		},
+		"create_data_modal": {
+			"header": "Import / Create Data",
+			"subheader": "Add new data to the notification.",
+			"create_key_value": "Add extra fields",
+			"input": {
+				"key": "Key / Field Name",
+				"value": "Value"
+			},
+			"success_message": {
+				"created": "The new data is now created!"
+			}
+		},
+		"create_review_data_modal": {
+			"header": "Create new review",
+			"input": {
+				"title": "Name",
+				"description": "Text",
+				"stars": "Stars",
+				"stars_help": "Leave empty to not show any stars in the review.",
+				"image": "Image URL"
+			},
+			"success_message": {
+				"created": "The new data is now created!"
+			}
+		},
+		"info_message": {
+			"no_data": "There is no data for this date range unfortunately."
+		},
+		"success_message": {
+			"notification_updated": "Notification settings were updated and now are live!"
+		},
+		"error_message": {
+			"notifications_limit": "You have exceeded the limit of notifications on your package."
+		},
+		"informational": {
+			"name": "Informational",
+			"description": "Fully customizable informational message for your users.",
+			"icon": "fa fa-fw fa-info-circle",
+			"title_default": "Flash Sale! 🔥",
+			"description_default": "Limited sale until tonight, right now!",
+			"image_default": "https://img.icons8.com/dusk/2x/sale.png"
+		},
+		"coupon": {
+			"name": "Coupon",
+			"description": "The best way to let your users know that you are running a sale.",
+			"icon": "fa fa-fw fa-piggy-bank",
+			"title_default": "35% OFF 🔥!",
+			"description_default": "Limited summer sale coupon code!",
+			"image_default": "https://img.icons8.com/nolan/2x/cutting-coupon.png",
+			"coupon_code_default": "COUPON20",
+			"button_text_default": "Get Coupon",
+			"footer_text_default": "No, I don't want to save money!"
+		},
+		"live_counter": {
+			"name": "Live Counter",
+			"description": "Show your visitors how many people are on your site to create more trust.",
+			"icon": "fa fa-fw fa-globe",
+			"description_default": "Active visitors now.",
+			"image_default": "https://img.icons8.com/nolan/2x/cutting-coupon.png",
+			"number_default": "15"
+		},
+		"email_collector": {
+			"name": "Email Collector",
+			"description": "Easily collect emails and generate leads from your users.",
+			"icon": "fa fa-fw fa-envelope-open",
+			"title_default": "Weekly newsletter",
+			"description_default": "We do not send out spam emails & you can unsubscribe at any point.",
+			"email_placeholder_default": "Your valid email",
+			"button_text_default": "Sign me up ✅",
+			"agreement_text_default": "I read & agree the Privacy Policy"
+		},
+		"latest_conversion": {
+			"name": "Latest Conversion",
+			"description": "Establish social proof by displaying your most recent conversions on your site.",
+			"icon": "fa fa-fw fa-funnel-dollar",
+			"title_default": "Someone from England",
+			"description_default": "Signed up for the newsletter.",
+			"image_default": "https://img.icons8.com/dusk/2x/small-smile.png",
+			"time_ago_default": "10 mins ago"
+		},
+		"conversions_counter": {
+			"name": "Conversions Counter",
+			"description": "Establish social proof by showing how many recent conversions you've got.",
+			"icon": "fa fa-fw fa-comment-dollar",
+			"title_default": "People bought the product",
+			"image_default": "https://img.icons8.com/officel/2x/return-purchase.png",
+			"number_default": "5",
+			"time_default": "In the last %s hours"
+		},
+		"video": {
+			"name": "Video",
+			"description": "Easily display a small widget with an informative YouTube video.",
+			"icon": "fa fa-fw fa-video",
+			"title_default": "Demo of the product 🔥",
+			"video_default": "https://www.youtube.com/embed/zWZa05uaiNA",
+			"button_text_default": "Sign up 🙌"
+		},
+		"social_share": {
+			"name": "Social Share",
+			"description": "Let others share your content and generate more traffic for you.",
+			"icon": "fa fa-fw fa-share-alt",
+			"title_default": "Tell your friends 💻",
+			"description_default": "We appreciate all the shares to support us! Thank you!"
+		},
+		"random_review": {
+			"name": "Random Review",
+			"description": "Display a random review/testimonial from your clients to create social proof.",
+			"icon": "fa fa-fw fa-random",
+			"title_default": "John Doe",
+			"description_default": "iProove is a 5 star product! 🔥",
+			"image_default": "https://img.icons8.com/color/2x/person-male.png"
+		},
+		"emoji_feedback": {
+			"name": "Emoji Feedback",
+			"description": "An interactive way for your users to give you feedback about your site.",
+			"icon": "fa fa-fw fa-smile-beam",
+			"title_default": "Do you like our website?",
+			"feedback_emoji_angry": "Angry",
+			"feedback_emoji_sad": "Sad",
+			"feedback_emoji_neutral": "Neutral",
+			"feedback_emoji_happy": "Happy",
+			"feedback_emoji_excited": "Excited"
+		},
+		"cookie_notification": {
+			"name": "Cookie Notification",
+			"description": "Notify your users that you are using cookies on your site.",
+			"icon": "fa fa-fw fa-cookie",
+			"description_default": "This website uses cookies to ensure you get the best experience on our website.",
+			"button_text_default": "Okay 🔥",
+			"url_text_default": "Learn More",
+			"image_default": "https://img.icons8.com/plasticine/2x/cookie.png"
+		},
+		"score_feedback": {
+			"name": "Score Feedback",
+			"description": "The easiest way for your users to give you a score feedback.",
+			"icon": "fa fa-fw fa-sort-numeric-up",
+			"title_default": "How'd you like our website?",
+			"description_default": "Rate from 1 to 5. 5 being excellent.",
+			"feedback_score_1": "1",
+			"feedback_score_2": "2",
+			"feedback_score_3": "3",
+			"feedback_score_4": "4",
+			"feedback_score_5": "5"
+		},
+		"request_collector": {
+			"name": "Request Collector",
+			"description": "Collecting leads has never been easier with the request collector.",
+			"icon": "fa fa-fw fa-user-plus",
+			"title_default": "John",
+			"description_default": "Support Team",
+			"image_default": "https://img.icons8.com/cotton/2x/online-support.png",
+			"content_title_default": "Any questions?",
+			"content_description_default": "Let us know and we will get back to you!",
+			"input_placeholder_default": "Valid Phone Number",
+			"button_text_default": "Call me back ⚡️",
+			"agreement_text_default": "I read & agree the Privacy Policy"
+		},
+		"countdown_collector": {
+			"name": "Countdown Collector",
+			"description": "Create urgency/FOMO with a countdown timer and an input for lead generation.",
+			"icon": "fa fa-fw fa-clock",
+			"title_default": "Building a website 💻",
+			"description_default": "Free Webinar by us.",
+			"content_title_default": "Hurry up! Registrations are closing soon.",
+			"input_placeholder_default": "Valid Email",
+			"button_text_default": "Sign up ✅️",
+			"agreement_text_default": "I read & agree the Privacy Policy",
+			"days": "days",
+			"hours": "hours",
+			"minutes": "minutes",
+			"seconds": "seconds"
+		},
+		"informational_bar": {
+			"name": "Informational Bar",
+			"description": "Fully customizable informational bar for the top or bottom.",
+			"icon": "fa fa-fw fa-info",
+			"title_default": "Your title here",
+			"description_default": "Your description will go here!",
+			"image_default": "https://img.icons8.com/cute-clipart/2x/info.png"
+		},
+		"image": {
+			"name": "Image",
+			"description": "Display a small widget with an informative Image of your choice.",
+			"icon": "fa fa-fw fa-image",
+			"title_default": "This is a demo title",
+			"image_default": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+			"button_text_default": "Register"
+		},
+		"collector_bar": {
+			"name": "Collector Bar",
+			"description": "Collect emails or leads without distracting the users.",
+			"icon": "fa fa-fw fa-inbox",
+			"title_default": "Sign up to receive updates & discounts via email",
+			"input_placeholder_default": "Your valid email",
+			"button_text_default": "Subscribe",
+			"agreement_text_default": "I read & agree the Privacy Policy"
+		},
+		"coupon_bar": {
+			"name": "Coupon Bar",
+			"description": "Top or bottom simple bar to give your visitors a nice coupon for them to use.",
+			"icon": "fa fa-fw fa-money-check-alt",
+			"title_default": "We're running a limited sale until the end of the day 🙌",
+			"coupon_code_default": "SALE15"
+		},
+		"button_bar": {
+			"name": "Button Bar",
+			"description": "Top or bottom cool bar to promote anything to your visitors.",
+			"icon": "fa fa-fw fa-newspaper",
+			"title_default": "We just launched our new product feature 🔥",
+			"button_text_default": "Check product"
+		},
+		"collector_modal": {
+			"name": "Modal Collector",
+			"description": "Collect leads with a nice looking and big modal.",
+			"icon": "fa fa-fw fa-fire",
+			"title_default": "Sign up 🔥",
+			"description_default": "We do not send out spam emails & you can unsubscribe at any point.",
+			"image_default": "",
+			"input_placeholder_default": "Your valid email",
+			"button_text_default": "Sign me up ✅",
+			"agreement_text_default": "I read & agree the Privacy Policy"
+		},
+		"collector_two_modal": {
+			"name": "Modal Two Collector",
+			"description": "Collect leads with a nice looking and big modal.",
+			"icon": "fa fa-fw fa-dice",
+			"title_default": "Get discounts & latest offers via email",
+			"description_default": "We do not send out spam emails & you can unsubscribe at any point.",
+			"image_default": "",
+			"input_placeholder_default": "Your valid email",
+			"button_text_default": "Sign up",
+			"agreement_text_default": "I read & agree the Privacy Policy"
+		},
+		"button_modal": {
+			"name": "Call to action",
+			"description": "Raise awareness and cta with a nice looking modal.",
+			"icon": "fa fa-fw fa-cloud",
+			"title_default": "New product 👨‍💻",
+			"description_default": "We just launched our new product, check it out right now!",
+			"image_default": "https://assets-ouch.icons8.com/preview/255/675cef88-9340-42a9-a5b0-52c240cc965a.png",
+			"button_text_default": "Download for free"
+		},
+		"text_feedback": {
+			"name": "Text Feedback",
+			"description": "Collect better and straight forward insight from your users.",
+			"icon": "fa fa-fw fa-heading",
+			"title_default": "Any suggestions for us?",
+			"description_default": "Let us know how we can do better 🙏.",
+			"input_placeholder_default": "Your honest input",
+			"button_text_default": "Submit"
+		},
+		"engagement_links": {
+			"name": "Engagement Links",
+			"description": "Display a subtle widget which contains all of your relevant links.",
+			"icon": "fa fa-fw fa-link",
+			"title": "Connect with us 👁",
+			"categories": [
+				{
+					"title": "Social Media",
+					"description": "Our social media pages.",
+					"links": [
+						{
+							"title": "Twitter",
+							"description": "Follow us on Twitter!",
+							"image": "https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-twitter-1.png&r=0&g=0&b=0",
+							"url": ""
+						},
+						{
+							"title": "Facebook",
+							"description": "Like our page on Facebook!",
+							"image": "https://cdns.iconmonstr.com/wp-content/assets/preview/2017/240/iconmonstr-facebook-6.png",
+							"url": ""
+						}
+					]
+				},
+				{
+					"title": "Contact",
+					"description": "",
+					"links": [
+						{
+							"title": "Email",
+							"description": "Our support email.",
+							"image": "",
+							"url": ""
+						},
+						{
+							"title": "Whatsapp",
+							"description": "Send us a message.",
+							"image": "",
+							"url": ""
+						}
+					]
+				}
+			]
+		}
+	},
+	"notification_create": {
+		"title": "Create a new notification",
+		"header": {
+			"header": "Create a new notification"
+		},
+		"add": {
+			"name": "Name",
+			"type": "Type",
+			"type_help": "The type cannot be modified later on."
+		}
+	},
+	"install": {
+		"title": "Install Script",
+		"menu": "Install Script",
+		"header": {
+			"header": "Install Script",
+			"subheader": "Here you can get the script code that you can use on any domain of yours."
+		},
+		"install": {
+			"refresh": "Check Activity",
+			"step_one": "1. Install your Pixel",
+			"step_one_help": "Copy and paste the following JS Code Snippet  before the end of the <code>&lt;/head&gt;</code> of any website that you want to display notifications from us.",
+			"step_two": "2. Test and check the results",
+			"step_two_help": "Now the only thing left to do is to make sure to access your website ( clear cache ) and get back to us for confirmation.",
+			"active": "Last active on %s",
+			"active_help": "All domains which receive no visits for 30 days and the pixel code is not installed will automatically be considered inactive.",
+			"step_three": "3. Create your campaign & notifications",
+			"step_three_help": "Go to the Dashboard and create a new Campaign for your domain and then you can start to create notifications.",
+			"dashboard": "Dashboard"
+		}
+	},
+	"index": {
+		"title": "Increase Conversions & Site Growth",
+		"header": "<span class=\"underline\">Skyrocket</span> Conversions<br /> & Increase <span class=\"underline\">Growth</span>.",
+		"subheader": "<strong>%s notifications</strong> were created & customized by our users.<br />Increase your website's growth by using our notification widgets.",
+		"sign_up": "Get started ➡",
+		"breadcrumb": "Home",
+		"steps": {
+			"header": "More engagement, growth & leads.",
+			"one": "Install pixel",
+			"one_text": "Easily integrate it on any website with just one line of code.",
+			"two": "Create your notification",
+			"two_text": "Create and customize your notification however you like it.",
+			"three": "Grow & Profit",
+			"three_text": "Generate more leads, conversions and growth. It's that easy."
+		},
+		"setup": {
+			"header": "Easy setup & integration on any website.",
+			"description": "Any website can run our notifications.",
+			"shopify": "Shopify",
+			"wordpress": "Wordpress",
+			"zapier": "Zapier",
+			"squarespace": "Squarespace"
+		},
+		"tools": {
+			"header": "%s notifications displayed",
+			"subheader": "The proper social proof and utility widgets \uD83D\uDD25",
+			"preview": "Notification Preview",
+			"preview_description": "Choose any type of notification and preview it live."
+		},
+		"pricing": {
+			"header": "Choose your package ✨",
+			"subheader": "Choose and get your plan based on your needs"
+		},
+		"cta": {
+			"header": "Sign up now",
+			"subheader": "Start upgrading your website with our widgets.",
+			"sign_up": "Get started"
+		}
+	},
+	"admin_pages_categories": {
+		"header": "Pages categories",
+		"create": "Create category",
+		"pages_categories": {
+			"pages_category": "Category",
+			"total_pages": "%s pages"
+		},
+		"input": {
+			"url": "Slug",
+			"url_placeholder": "your-pages-category-url",
+			"title": "Title",
+			"description": "Short description",
+			"icon": "Icon",
+			"icon_placeholder": "ex: fa fa-plane",
+			"icon_help": "Font Awesome icon, leave empty for no icon.",
+			"order": "Order",
+			"order_help": "Easily arrange pages categories with numbers. Displaying on the website is ascendent."
+		}
+	},
+	"admin_pages_category_create": {
+		"title": "Create pages category",
+		"header": "Create a new pages category"
+	},
+	"admin_pages_category_update": {
+		"title": "Update pages category",
+		"header": "Update pages category"
+	},
+	"admin_pages_category_delete_modal": {
+		"header": "Delete Pages Category",
+		"subheader": "All the pages inside this category will be deleted as well. This action cannot be undone.",
+		"success_message": "Pages category deletion was performed successfully!"
+	},
+	"admin_pages": {
+		"title": "Pages Management",
+		"menu": "Pages",
+		"header": "Pages Management",
+		"create": "Create Page",
+		"pages": {
+			"page": "Page",
+			"position": "Position",
+			"position_top": "Top menu",
+			"position_bottom": "Bottom menu",
+			"position_hidden": "Hidden",
+			"total_views": "%s views"
+		},
+		"input": {
+			"title": "Title",
+			"description": "Short description",
+			"url_internal": "Slug",
+			"url_internal_placeholder": "ex: page-url",
+			"url_external": "External Url",
+			"url_external_placeholder": "ex: https://domain.com/",
+			"content": "Content",
+			"position": "Position",
+			"position_top": "Top menu",
+			"position_bottom": "Bottom menu",
+			"position_hidden": "Hidden",
+			"type": "Type",
+			"type_internal": "Internal",
+			"type_external": "External",
+			"pages_category_id": "Category",
+			"pages_category_id_null": "No category",
+			"order": "Order",
+			"order_help": "Easily arrange pages with numbers. Displaying on the website is ascendent.",
+			"date": "First created on",
+			"last_date": "Last edited on"
+		}
+	},
+	"admin_page_delete_modal": {
+		"header": "Delete Page",
+		"subheader": "This action cannot be undone.",
+		"success_message": "Page deletion was performed successfully!"
+	},
+	"admin_page_create": {
+		"title": "Create Page",
+		"header": "Create Page"
+	},
+	"admin_page_update": {
+		"title": "Page Update",
+		"header": "Page Update"
+	},
+	"admin_packages": {
+		"title": "Packages Management",
+		"menu": "Packages",
+		"header": "Packages Management",
+		"create": "Create Package",
+		"header_settings": "Package Settings",
+		"subheader_settings": "Choose which features to enable for this package.",
+		"table": {
+			"name": "Package Name",
+			"custom_help": "Custom packages can be defined directly from the User Update page.",
+			"monthly_price": "Monthly Price",
+			"annual_price": "Annual Price",
+			"users": "Users",
+			"status": "Status"
+		},
+		"input": {
+			"trial": {
+				"name": "Name",
+				"days": "Days",
+				"days_help": "The number of days that the trial package can be used."
+			},
+			"free": {
+				"name": "Name"
+			},
+			"name": "Package Name",
+			"monthly_price": "Monthly Price (%s)",
+			"annual_price": "Annual Price (%s)",
+			"status": "Status",
+			"campaigns_limit": "Total Campaigns Limit",
+			"campaigns_limit_help": "Set -1 for unlimited.",
+			"notifications_limit": "Total Notifications Limit",
+			"notifications_limit_help": "Set -1 for unlimited.",
+			"notifications_impressions_limit": "Notifications Impressions Limit per Month",
+			"notifications_impressions_limit_help": "How many times notifications will show on the users website ( in total per month ). Set -1 for unlimited. ( Impression: When one notification shows up on the users website )",
+			"no_ads": "No Ads",
+			"no_ads_help": "Enabling this will make all people having this package to not see any ads.",
+			"removable_branding": "Removable Notifications Branding",
+			"removable_branding_help": "This gives the option for people to remove branding from notifications.",
+			"custom_branding": "Custom Notifications Branding",
+			"custom_branding_help": "This gives the option for people to add their custom branding for notifications.",
+			"enabled_notifications": "Enabled Notifications",
+			"enabled_notifications_help": "Select which notifications are enabled for usage on this package."
+		}
+	},
+	"admin_package_create": {
+		"title": "Create Package",
+		"menu": "Create Package",
+		"header": "Create a new package"
+	},
+	"admin_package_update": {
+		"title": "Edit Package",
+		"header": "Edit %s Package",
+		"update_users_package_settings": {
+			"header": "Update Package Subscribers",
+			"subheader": "By updating the package subscribers you will overwrite all their current settings with the saved settings of this package."
+		},
+		"error_message": {
+			"disabled_packages": "You are not allowed to disable all the packages which are available."
+		}
+	},
+	"admin_codes": {
+		"title": "Codes Management",
+		"menu": "Codes",
+		"header": "Codes Management",
+		"create": "Create Code",
+		"table": {
+			"code": "Code",
+			"type": "Type",
+			"package_id": "Package",
+			"package_id_null": "All packages",
+			"discount": "Discount",
+			"quantity": "Quantity",
+			"redeemed_codes": "Redeemed"
+		},
+		"main": {
+			"header": "Code settings",
+			"subheader": "Generate the code depending on the usage you want from it.",
+			"type": "Type",
+			"type_discount": "Discount",
+			"type_redeemable": "Redeemable",
+			"package_id": "Package",
+			"package_id_help": "Which package to make the code available for.",
+			"package_id_null": "All packages",
+			"days": "Days",
+			"days_help": "How many days will the package be available for.",
+			"code": "Code",
+			"discount": "Discount Percentage",
+			"discount_help": "Choose a discount between 1% and 99% off for the code",
+			"quantity": "Quantity",
+			"quantity_help": "How many time the code can be used."
+		}
+	},
+	"admin_code_delete_modal": {
+		"header": "Delete Code",
+		"subheader": "By deleting the code the users payment plans will not . This action cannot be undone.",
+		"success_message": "Code deletion was performed successfully!"
+	},
+	"admin_code_create": {
+		"title": "Create Code",
+		"menu": "Create Code",
+		"header": "Create a new code"
+	},
+	"admin_code_update": {
+		"title": "Edit Code",
+		"header": "Edit Code",
+		"subheader": "Changing the settings will not have any effect on already redeemed or used codes."
+	},
+	"admin_payments": {
+		"title": "Payments List",
+		"header": "Payments List",
+		"menu": "Payments",
+		"table": {
+			"processor": "Processor",
+			"user_email": "User",
+			"email": "Email",
+			"user": "User",
+			"date": "Date",
+			"name": "Full Name",
+			"amount": "Amount",
+			"currency": "",
+			"recurring": "Recurring",
+			"one_time": "One Time",
+			"stripe": "Stripe",
+			"paypal": "PayPal"
+		}
+	},
+	"admin_index": {
+		"title": "Admin Dashboard",
+		"menu": "Dashboard",
+		"header": "Dashboard",
+		"display": {
+			"current_month_notifications_impressions": "Notifications shown this month",
+			"total_notifications_impressions": "Total notifications shown",
+			"payments_month": "Payments this month",
+			"payments": "Total payments",
+			"earnings_month": "Earnings this month",
+			"earnings": "Total earnings",
+			"active_users_month": "Active users this month",
+			"active_users": "Total users"
+		},
+		"users": {
+			"header": "Latest users",
+			"user": "User"
+		},
+		"campaigns": {
+			"header": "Latest campaigns",
+			"campaign": "Campaign",
+			"user": "User"
+		},
+		"payments": {
+			"header": "Latest payments",
+			"user": "User",
+			"payment": "Payment"
+		}
+	},
+	"admin_users": {
+		"title": "Users Management",
+		"header": "Users Management",
+		"menu": "Users",
+		"table": {
+			"username": "Username",
+			"name": "Name",
+			"email": "Email",
+			"active": "Status",
+			"package_id": "Package",
+			"registration_date": "Reg. Date",
+			"actions": "Actions"
+		},
+		"tooltip": {
+			"owner": "Owner",
+			"package": "Current Package"
+		},
+		"info_message": {
+			"confirm_delete": "By deleting this user, everything that is linked to that user will be deleted!"
+		},
+		"error_message": {
+			"self_delete": "You can't delete yourself!",
+			"self_status": "You can't change your own status!"
+		},
+		"display": {
+			"admin": "Admin",
+			"search_placeholder": "Search by username, name or email.."
+		}
+	},
+	"admin_user_login_modal": {
+		"header": "Login as this user",
+		"subheader": "By logging in as another user, you will be logged out of the current account and fully logged in to this user.",
+		"success_message": "Successfully logged in as %s! To get out of this account simply use the logout function."
+	},
+	"admin_user_create": {
+		"title": "Create User",
+		"header": "Create User",
+		"menu": "Create User",
+		"form": {
+			"name": "Name",
+			"name_placeholder": "Your full name",
+			"email": "Email",
+			"email_placeholder": "email@domain.com",
+			"password": "Password",
+			"password_placeholder": "Password",
+			"repeat_password": "Repeat Password"
+		},
+		"error_message": {
+			"username_length": "Username must be between 3 and 32 characters!",
+			"name_length": "Name must be between 3 and 32 characters!",
+			"email_exists": "This email is already used!",
+			"invalid_email": "You entered an invalid email!",
+			"short_password": "Password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Entered passwords do not match",
+			"username_characters": "You can only use letters, digits and the '.', '_' characters for the username field"
+		},
+		"success_message": {
+			"created": "Account has been created!"
+		}
+	},
+	"admin_user_update": {
+		"title": "Edit User",
+		"header": "Edit User",
+		"main": {
+			"username": "Username",
+			"name": "Name",
+			"email": "Email",
+			"status": "Account Status",
+			"status_active": "Active",
+			"status_disabled": "Disabled",
+			"type": "User Privileges",
+			"type_help": "Admin users will have the same privileges as you, be careful!",
+			"type_admin": "Admin",
+			"type_user": "User",
+			"type_agent": "Agent"
+		},
+		"package": {
+			"header": "Package",
+			"header_help": "Change and update the package of the user.",
+			"package_id": "Current Package",
+			"package_expiration_date": "Package Expiration Date",
+			"package_trial_done": "Package Trial Done"
+		},
+		"change_password": {
+			"header": "Change Password",
+			"header_help": "Leave it empty if you don't want to change the password!",
+			"new_password": "New Password",
+			"repeat_password": "Repeat Password"
+		},
+		"error_message": {
+			"name_length": "Name must be between 3 and 32 characters!",
+			"invalid_account": "That account wasn't found!",
+			"email_exists": "We're sorry, but that email is already used!",
+			"invalid_email": "You entered an invalid email!",
+			"short_password": "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Your entered passwords do not match!"
+		}
+	},
+	"admin_user_view": {
+		"title": "View User",
+		"header": "View User",
+		"main": {
+			"ip": "IP",
+			"country": "Country",
+			"name": "Name",
+			"email": "Email",
+			"status": "Account status",
+			"status_active": "Active",
+			"status_disabled": "Disabled",
+			"type": "User privileges",
+			"type_help": "Admin users will have the same privileges as you, be careful!",
+			"type_admin": "Admin",
+			"type_user": "User",
+			"last_activity": "Last active",
+			"last_user_agent": "Last user agent",
+			"package_trial_done": "Trial is done",
+			"package": "Current package",
+			"package_expiration_date": "Package expiration date",
+			"total_logins": "Total logins",
+			"current_month_notifications_impressions": "Notifications impressions this month",
+			"total_notifications_impressions": "Total notifications impressions",
+			"language": "Language",
+			"timezone": "Timezone"
+		},
+		"campaigns": {
+			"header": "Campaigns",
+			"campaign": "Campaign"
+		},
+		"payments": {
+			"header": "Payments",
+			"payment": "Payment"
+		},
+		"logs": {
+			"header": "Last Activity 📚",
+			"subheader": "Last recorded activity",
+			"type": "Type",
+			"ip": "IP",
+			"date": "Date"
+		},
+		"info_message": {
+			"no_payments": "At the moment there are no transactions to show.."
+		}
+	},
+	"admin_settings": {
+		"title": "Website Settings",
+		"menu": "Website Settings",
+		"header": "Website Settings",
+		"documentation": "",
+		"tab": {
+			"main": "Main",
+			"socialproofo": "iProove",
+			"payment": "Payment",
+			"business": "Business",
+			"facebook": "Facebook Login",
+			"captcha": "Captcha",
+			"ads": "Ads",
+			"socials": "Socials",
+			"smtp": "SMTP",
+			"custom": "Custom JS / CSS",
+			"email_notifications": "Email Notifications",
+			"cron": "Cron",
+			"license": "License"
+		},
+		"main": {
+			"title": "Website title",
+			"default_language": "Default Language",
+			"default_language_help": "To add more languages, please consult the documentation.",
+			"logo": "Logo",
+			"logo_help": "jpg, jpeg, png and svg accepted. Recommended size: Max height of 40px and transparrent.",
+			"logo_remove": "Remove Logo",
+			"favicon": "Favicon",
+			"favicon_help": "jpg, jpeg, png and ico accepted.",
+			"favicon_remove": "Remove Favicon",
+			"email_confirmation": "Registration Confirmation via Email",
+			"register_is_enabled": "Registration Is Enabled",
+			"register_is_enabled_help": "Disable / Enable User Registration depending on your usage of the platform.",
+			"default_timezone": "Default Timezone",
+			"index_url": "Custom Landing Page URL",
+			"index_url_help": "Set the full custom index url ( ex: https://google.com/ ) if you want to completely disable the default landing page of the product. Helpful when you want to have your own landing page. Leave empty to disable.",
+			"terms_and_conditions_url": "Terms and Conditions URL",
+			"terms_and_conditions_url_help": "Link to the terms and conditions of the website. Can be a link created with the Pages creator from the sidebar.",
+			"privacy_policy_url": "Privacy Policy URL",
+			"privacy_policy_url_help": "Link to the privacy policy of the website. Can be a link created with the Pages creator from the sidebar."
+		},
+		"socialproofo": {
+			"analytics_is_enabled": "Analytics System for iProove notifications",
+			"analytics_is_enabled_help": "This option allows you to enable or disable the Analytics that are generated for notifications widgets.",
+			"pixel_cache": "Pixel Cache (in seconds)",
+			"pixel_cache_help": "Set 0 to disable the cache of the pixel tracking code."
+		},
+		"payment": {
+			"is_enabled": "Payments System Is Enabled",
+			"is_enabled_help": "Disabling the payment system will remove all the options for the users to upgrade their accounts or see any payment related information.",
+			"type": "Type",
+			"type_help": "",
+			"type_one_time": "One Time",
+			"type_recurring": "Recurring",
+			"type_both": "Both",
+			"brand_name": "Brand Name",
+			"brand_name_help": "The brand name will be used for displaying the brand when users purchase via payment gates. (ex: paypal)",
+			"currency": "Currency",
+			"currency_help": "Currency Code for the payments (ex: USD).",
+			"codes_is_enabled": "Enable Discount/Redeemable Codes",
+			"codes_is_enabled_help": "Enabling the discount codes system will enable users to add a discount code created from the admin panel, before they checkout.",
+			"paypal": "Paypal Settings",
+			"paypal_is_enabled": "Is Enabled",
+			"paypal_mode": "Mode",
+			"paypal_mode_help": "live - production, sandbox - testing purposes",
+			"paypal_client_id": "Client Id",
+			"paypal_secret": "Secret",
+			"stripe": "Stripe Settings",
+			"stripe_is_enabled": "Is Enabled",
+			"stripe_publishable_key": "Publishable Key",
+			"stripe_secret_key": "Secret Key",
+			"stripe_webhook_secret": "Webhook Secret"
+		},
+		"business": {
+			"header": "Business Details",
+			"subheader": "These details will be used when generating invoices for the user.",
+			"invoice_is_enabled": "Invoices System Is Enabled",
+			"invoice_is_enabled_help": "This option will determine if users will be able to see invoices for their payments or not.",
+			"name": "Name",
+			"address": "Address",
+			"city": "City",
+			"county": "County",
+			"zip": "ZIP",
+			"country": "Country",
+			"email": "Email",
+			"phone": "Phone",
+			"tax_type": "Tax Type",
+			"tax_type_placeholder": "ex: VAT",
+			"tax_id": "Tax ID",
+			"custom_key_one": "Custom Field Key",
+			"custom_value_one": "Custom Field Value",
+			"custom_key_two": "Custom Field Key",
+			"custom_value_two": "Custom Field Value"
+		},
+		"captcha": {
+			"recaptcha": "Google ReCaptcha",
+			"recaptcha_is_enabled": "Enable Google ReCaptcha",
+			"recaptcha_is_enabled_help": "When Google Recaptcha is disabled a more basic captcha will be available.",
+			"recaptcha_public_key": "Public Key",
+			"recaptcha_private_key": "Private Key"
+		},
+		"facebook": {
+			"is_enabled": "Is Enabled",
+			"app_id": "App Id",
+			"app_secret": "App Secret"
+		},
+		"ads": {
+			"ads_help": "These fields accept text, html or javascript.",
+			"header": "Header",
+			"footer": "Footer"
+		},
+		"socials": {
+			"socials_help": "Social links to be displayed in the footer of the website. Enter only the id / name of the page"
+		},
+		"smtp": {
+			"host": "Host",
+			"host_help": "If there are no values entered in this field then the system will try to use the default mail function.",
+			"from": "From Email",
+			"from_help": "The email that the users get the email from / the 'reply-to' email ( registration / email activation / lost password )",
+			"encryption": "Encryption",
+			"port": "Port",
+			"auth": "Authentication",
+			"username": "Username",
+			"password": "Password"
+		},
+		"custom": {
+			"head_js": "Head Javascript",
+			"head_js_help": "Add your own tracking js code ( ex: Google Analytics ).",
+			"head_css": "Custom CSS",
+			"head_css_help": "Add custom CSS in case you want to overwrite certain styles of the website."
+		},
+		"email_notifications": {
+			"emails": "Emails to be notified",
+			"emails_help": "Emails that will receive a notification when one of the bottom actions are performed. Add valid email addresses separated by a comma.",
+			"new_user": "New User",
+			"new_user_help": "Receive an email when a new users registers to the website.",
+			"new_payment": "New Payment",
+			"new_payment_help": "Receive an email when a new payment is successfully processed."
+		},
+		"cron": {
+			"url": "Cron Job Url",
+			"url_help": "This cron job url contains your key of access also. Only calls with this exact url will work.",
+			"reset_date": "Last Reset Date - Monthly Notifications Impressions"
+		},
+		"license": {
+			"license": "License / Purchase Code",
+			"license_help": "The license you got from purchasing the product.",
+			"type": "License Type",
+			"new_license": "New License",
+			"new_license_help": "Leave empty if you don't want to change it. Useful when changing your license or upgrading to a new one (ex: from Regular License to Extended )"
+		},
+		"button": {
+			"test_email": "Test Email Settings",
+			"test_email_help": "It will send an email to the value from the <strong>From</strong> field that you set above. Make sure to first save the settings!"
+		},
+		"success_message": {
+			"saved": "Website settings have been saved!",
+			"email": "The test email has been sent successfully!"
+		},
+		"error_message": {
+			"email": "Test email failed: %s"
+		}
+	},
+	"admin_statistics": {
+		"title": "Website Statistics",
+		"menu": "Statistics",
+		"header": "Statistics",
+		"subheader": "See how your website evolves throughout time.",
+		"payments": {
+			"header": "Sales",
+			"subheader": "This website has generated %s %s revenue on %s sales.",
+			"no_payments": "There are no recorded payments for this date range.",
+			"chart_total_payments": "Total sales",
+			"chart_total_amount": "Total earned"
+		},
+		"growth": {
+			"header": "Growth",
+			"subheader": "Day by day growth of your website.",
+			"chart_users": "New users",
+			"chart_campaigns": "New campaigns",
+			"chart_notifications": "New notifications"
+		},
+		"notifications": {
+			"header": "Provided notifications",
+			"subheader": "These details are generated from your users that are running notifications on their websites.",
+			"chart_impression": "Impressions",
+			"chart_hover": "Hovers",
+			"chart_click": "Clicks",
+			"chart_form_submission": "Form Submissions"
+		}
+	},
+	"notfound": {
+		"title": "Not found",
+		"header": "404 Not Found",
+		"subheader": "The page you’re looking for was not found."
+	},
+	"custom_branding_campaign_modal": {
+		"header": "Custom Branding",
+		"subheader": "Create your own custom branding for your notifications.",
+		"input": {
+			"name": "Branding Name",
+			"name_help": "Leave empty to have the default site branding.",
+			"url": "URL"
+		}
+	},
+	"create_campaign_modal": {
+		"header": "Create New Campaign",
+		"subheader": "Easily create a new campaign by filling the following information.",
+		"input": {
+			"name": "Name",
+			"domain": "Domain / Subdomain",
+			"domain_placeholder": "ex: domain.com, subdomain.domain.com",
+			"domain_help": "The domain name of the website where the campaign is going to run.",
+			"domain_help2": "Notifications will NOT work on other domains other than what you define here.",
+			"include_subdomains": "Include Subdomains",
+			"include_subdomains_help": "All the subdomains will match on this campaign as well if checked."
+		},
+		"success_message": {
+			"created": "The new campaign is now created!"
+		}
+	},
+	"update_campaign_modal": {
+		"header": "Update Campaign",
+		"subheader": "Change an already existing campaign.",
+		"input": {
+			"name": "Name",
+			"domain": "Domain / Subdomain",
+			"domain_placeholder": "ex: domain.com, subdomain.domain.com",
+			"domain_help": "The domain name of the website where the campaign is going to run.",
+			"domain_help2": "Notifications will NOT work on other domains other than what you define here.",
+			"include_subdomains": "Include Subdomains",
+			"include_subdomains_help": "All the subdomains will match on this campaign as well if checked."
+		},
+		"success_message": {
+			"updated": "The campaign has been updated!"
+		}
+	},
+	"datatable": {
+		"sEmptyTable": "No data available in table",
+		"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+		"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+		"sInfoFiltered": "(filtered from _MAX_ total entries)",
+		"sInfoPostFix": "",
+		"sInfoThousands": ",",
+		"sLengthMenu": "_MENU_",
+		"sLoadingRecords": "Loading...",
+		"sProcessing": "<div class=\"spinner-grow\"><span class=\"sr-only\">Loading...</span></div>",
+		"searchPlaceholder": "Search..",
+		"search": "",
+		"sZeroRecords": "No matching records found",
+		"oPaginate": {
+			"sFirst": "First",
+			"sLast": "Last",
+			"sNext": "Next",
+			"sPrevious": "Previous"
+		},
+		"oAria": {
+			"sSortAscending": ": activate to sort column ascending",
+			"sSortDescending": ": activate to sort column descending"
+		}
+	},
+	"agency_index": {
+		"title": "Admin Dashboard",
+		"menu": "Dashboard",
+		"header": "Dashboard",
+		"display": {
+			"current_month_notifications_impressions": "Notifications shown this month",
+			"total_notifications_impressions": "Total notifications shown",
+			"payments_month": "Payments this month",
+			"payments": "Total payments",
+			"earnings_month": "Earnings this month",
+			"earnings": "Total earnings",
+			"active_users_month": "Active users this month",
+			"active_users": "Total users"
+		},
+		"users": {
+			"header": "Latest users",
+			"user": "User"
+		},
+		"campaigns": {
+			"header": "Latest campaigns",
+			"campaign": "Campaign",
+			"user": "User"
+		},
+		"payments": {
+			"header": "Latest payments",
+			"user": "User",
+			"payment": "Payment"
+		}
+	},
+	"agency_users": {
+		"title": "Users Management",
+		"header": "Users Management",
+		"menu": "Users",
+		"table": {
+			"username": "Username",
+			"name": "Name",
+			"email": "Email",
+			"active": "Status",
+			"package_id": "Package",
+			"registration_date": "Reg. Date",
+			"actions": "Actions"
+		},
+		"tooltip": {
+			"owner": "Owner",
+			"package": "Current Package"
+		},
+		"info_message": {
+			"confirm_delete": "By deleting this user, everything that is linked to that user will be deleted!"
+		},
+		"error_message": {
+			"self_delete": "You can't delete yourself!",
+			"self_status": "You can't change your own status!"
+		},
+		"display": {
+			"admin": "Admin",
+			"search_placeholder": "Search by username, name or email.."
+		}
+	},
+	"agency_user_login_modal": {
+		"header": "Login as this user",
+		"subheader": "By logging in as another user, you will be logged out of the current account and fully logged in to this user.",
+		"success_message": "Successfully logged in as %s! To get out of this account simply use the logout function."
+	},
+	"agency_user_create": {
+		"title": "Create User",
+		"header": "Create User",
+		"menu": "Create User",
+		"form": {
+			"name": "Name",
+			"name_placeholder": "Your full name",
+			"email": "Email",
+			"email_placeholder": "email@domain.com",
+			"password": "Password",
+			"password_placeholder": "Password",
+			"repeat_password": "Repeat Password"
+		},
+		"error_message": {
+			"username_length": "Username must be between 3 and 32 characters!",
+			"name_length": "Name must be between 3 and 32 characters!",
+			"email_exists": "This email is already used!",
+			"invalid_email": "You entered an invalid email!",
+			"short_password": "Password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Entered passwords do not match",
+			"username_characters": "You can only use letters, digits and the '.', '_' characters for the username field"
+		},
+		"success_message": {
+			"created": "Account has been created!"
+		}
+	},
+	"agency_user_update": {
+		"title": "Edit User",
+		"header": "Edit User",
+		"main": {
+			"username": "Username",
+			"name": "Name",
+			"email": "Email",
+			"status": "Account Status",
+			"status_active": "Active",
+			"status_disabled": "Disabled",
+			"type": "User Privileges",
+			"type_help": "Admin users will have the same privileges as you, be careful!",
+			"type_admin": "Admin",
+			"type_user": "User",
+			"type_agent": "Agent"
+		},
+		"package": {
+			"header": "Package",
+			"header_help": "Change and update the package of the user.",
+			"package_id": "Current Package",
+			"package_expiration_date": "Package Expiration Date",
+			"package_trial_done": "Package Trial Done"
+		},
+		"change_password": {
+			"header": "Change Password",
+			"header_help": "Leave it empty if you don't want to change the password!",
+			"new_password": "New Password",
+			"repeat_password": "Repeat Password"
+		},
+		"error_message": {
+			"name_length": "Name must be between 3 and 32 characters!",
+			"invalid_account": "That account wasn't found!",
+			"email_exists": "We're sorry, but that email is already used!",
+			"invalid_email": "You entered an invalid email!",
+			"short_password": "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching": "Your entered passwords do not match!"
+		}
+	},
+	"agency_user_view": {
+		"title": "View User",
+		"header": "View User",
+		"main": {
+			"ip": "IP",
+			"country": "Country",
+			"name": "Name",
+			"email": "Email",
+			"status": "Account status",
+			"status_active": "Active",
+			"status_disabled": "Disabled",
+			"type": "User privileges",
+			"type_help": "Admin users will have the same privileges as you, be careful!",
+			"type_admin": "Admin",
+			"type_user": "User",
+			"last_activity": "Last active",
+			"last_user_agent": "Last user agent",
+			"package_trial_done": "Trial is done",
+			"package": "Current package",
+			"package_expiration_date": "Package expiration date",
+			"total_logins": "Total logins",
+			"current_month_notifications_impressions": "Notifications impressions this month",
+			"total_notifications_impressions": "Total notifications impressions",
+			"language": "Language",
+			"timezone": "Timezone"
+		},
+		"campaigns": {
+			"header": "Campaigns",
+			"campaign": "Campaign"
+		},
+		"payments": {
+			"header": "Payments",
+			"payment": "Payment"
+		},
+		"logs": {
+			"header": "Last Activity 📚",
+			"subheader": "Last recorded activity",
+			"type": "Type",
+			"ip": "IP",
+			"date": "Date"
+		},
+		"info_message": {
+			"no_payments": "At the moment there are no transactions to show.."
+		}
+	}
+}

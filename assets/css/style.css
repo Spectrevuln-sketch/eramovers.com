@@ -1,0 +1,25 @@
+
+
+.nav-link{
+  color: #aaaaaa !important;
+  margin-left: 50px !important;
+}
+.nav-link:hover{
+  color: #aaaaaa !important;
+  border: none;
+}
+
+
+.jumbotron{
+  min-height: 10%;
+  padding: 5em inherit;
+  background-color: none;
+  margin-top: -5%;
+}
+.jumbotron.jumbotron-fluid img{
+  opacity: 0.8;
+}
+
+.content{
+  text-transform: uppercase;
+}
